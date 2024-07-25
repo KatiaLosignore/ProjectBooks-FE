@@ -1,0 +1,99 @@
+.bordi{
+    border: 2px solid black;
+}
+.bot-log{
+    /* border: 2px solid black; */
+    padding: 0.2em 0.75em;
+    margin: 1em 0;
+     background-color: rgb(173, 3, 3);
+     color: white;
+     border-radius: 8px;
+}
+.btn-casa{
+    background-color: rgb(3, 33, 199);
+    color: white;
+    border-radius: 8px;
+    padding: 0.2em 0.75em;
+    margin: 1em 0;
+    border: none;
+    position: relative;
+    bottom: 10px;
+}
+.btn-cat{
+    color: white;
+    background-color: rgb(3, 33, 199);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btnelimina{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 8px;
+}
+.btnmodifica{
+    color: white;
+    background-color: rgb(3, 33, 199);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.searchbar {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    background-color: #3051be;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8F5C38;
+    margin-bottom: 60px;
+}
+
+.input-search {
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 75%;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0px 10px;
+    background-color: #eee9d9;
+}
+
+.search-button {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.altezza{
+    height: 600px;
+    padding: 0px 20px;
+}
